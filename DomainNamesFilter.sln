@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{57AF58E0-69D9-4B59-9496-5C3551E727E5}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sources", "Sources", "{F06D2567-2E71-4385-B19B-4684CB5C1550}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{82667586-4974-4141-AA66-3F2989088F83}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DomainNamesFilter.Console", "Sources\DomainNamesFilter.Console\DomainNamesFilter.Console.csproj", "{62D1D998-5512-4580-98A1-47CBE22C4F2E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DomainNamesFilter.Core", "Sources\DomainNamesFilter.Core\DomainNamesFilter.Core.csproj", "{E058CB2D-79BC-48FE-955D-186CF8167EEE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DomainNamesFilter.Tests", "Tests\DomainNamesFilter.Tests\DomainNamesFilter.Tests.csproj", "{BFA42DC4-845E-44EA-90DD-7A73A641DBA4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A2AD48A1-9CF8-405B-9559-60BCD8F6EFE7}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+		Solution Items\SolutionInfo.cs = Solution Items\SolutionInfo.cs
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{62D1D998-5512-4580-98A1-47CBE22C4F2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62D1D998-5512-4580-98A1-47CBE22C4F2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62D1D998-5512-4580-98A1-47CBE22C4F2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62D1D998-5512-4580-98A1-47CBE22C4F2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E058CB2D-79BC-48FE-955D-186CF8167EEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E058CB2D-79BC-48FE-955D-186CF8167EEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E058CB2D-79BC-48FE-955D-186CF8167EEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E058CB2D-79BC-48FE-955D-186CF8167EEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFA42DC4-845E-44EA-90DD-7A73A641DBA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFA42DC4-845E-44EA-90DD-7A73A641DBA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFA42DC4-845E-44EA-90DD-7A73A641DBA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFA42DC4-845E-44EA-90DD-7A73A641DBA4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{62D1D998-5512-4580-98A1-47CBE22C4F2E} = {F06D2567-2E71-4385-B19B-4684CB5C1550}
+		{E058CB2D-79BC-48FE-955D-186CF8167EEE} = {F06D2567-2E71-4385-B19B-4684CB5C1550}
+		{BFA42DC4-845E-44EA-90DD-7A73A641DBA4} = {82667586-4974-4141-AA66-3F2989088F83}
+	EndGlobalSection
+EndGlobal
